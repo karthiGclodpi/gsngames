@@ -51,7 +51,6 @@ public class TitleBOImpl implements TitleBO {
 
 	@Override
 	public List<Title> titles() {
-		// TODO Auto-generated method stub
 		return titleDAO.titles();
 	}
 

@@ -53,12 +53,6 @@ public class UserDAOImpl implements UserDAO {
 	}
 
 	@Override
-	public int getUserSequence() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
-	@Override
 	public int user(User user) {
 
 		SimpleJdbcInsert jdbcInsert = new SimpleJdbcInsert(jdbcTemplate);

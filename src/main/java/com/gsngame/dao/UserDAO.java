@@ -22,8 +22,6 @@ public interface UserDAO {
 
 	public boolean validateRole(int roleid);
 
-	public int getUserSequence();
-
 	public int user(User user);
 
 	public boolean checkUserExist(String username);
